@@ -1,0 +1,640 @@
+{
+  "reviewed_on": "2026-11-10",
+  "editorial_note": "Ejemplo público de biomedicina e IA: síntesis educativa de modelos fundacionales, evaluación y límites. No utiliza datos personales ni una investigación particular. Los registros del radar no reescriben estas explicaciones.",
+  "topics": [
+    {
+      "id": "modelos-fundacionales",
+      "name": "Modelos fundacionales biomédicos",
+      "short": "GMAI",
+      "category": "IA biomédica",
+      "kind": "Concepto de IA",
+      "context": "Perspectiva médica y evaluación de respuestas a preguntas",
+      "evidence": "Perspectiva y benchmarks; no ensayo de utilidad clínica",
+      "clinical": "Ejemplo de investigación; el desempeño computacional no demuestra utilidad clínica ni mayor longevidad",
+      "refs": [
+        "37045921",
+        "37438534"
+      ],
+      "search": "foundation models biomedical artificial intelligence validation",
+      "summary": "Modelos preentrenados que pueden adaptarse a varias tareas biomédicas. Reutilizar un modelo no valida automáticamente cada uso.",
+      "sample": "Conjuntos públicos de información biomédica y tareas definidas",
+      "method": "Preentrenamiento, adaptación y evaluación en tareas separadas",
+      "units": "Métricas propias de cada tarea; no hay una escala universal",
+      "why": {
+        "text": "La propuesta GMAI estudia cómo reutilizar modelos y combinar diferentes tipos de información médica.",
+        "refs": [
+          "37045921",
+          "37438534"
+        ]
+      },
+      "findings": {
+        "text": "La perspectiva GMAI plantea capacidades y desafíos. Med-PaLM añade evaluación humana de respuestas médicas y describe limitaciones pese al rendimiento en preguntas de examen.",
+        "refs": [
+          "37045921",
+          "37438534"
+        ]
+      },
+      "limits": {
+        "text": "Un benchmark no reproduce todo un entorno asistencial. Hay que comprobar errores, posibles daños, sesgos y generalización en cada tarea.",
+        "refs": [
+          "37045921",
+          "37438534"
+        ]
+      },
+      "thesis": {
+        "text": "¿Un modelo preentrenado mejora una tarea pública frente a una alternativa sencilla cuando se evalúan también errores y no solo la puntuación media?",
+        "refs": [
+          "37045921",
+          "37438534"
+        ],
+        "status": "Hipótesis / pregunta de evaluación"
+      },
+      "terms": [
+        "Modelo fundacional",
+        "Benchmark",
+        "Validación externa"
+      ]
+    },
+    {
+      "id": "ia-multimodal",
+      "name": "IA multimodal biomédica",
+      "short": "Imagen + texto",
+      "category": "IA biomédica",
+      "kind": "Método computacional",
+      "context": "Imágenes de patología y texto biomédico",
+      "evidence": "Estudio de desarrollo y benchmarks retrospectivos",
+      "clinical": "Ejemplo de investigación; el desempeño computacional no demuestra utilidad clínica ni mayor longevidad",
+      "refs": [
+        "38504017",
+        "37045921"
+      ],
+      "search": "multimodal artificial intelligence pathology image text validation",
+      "summary": "Combina modalidades como imágenes y texto. La combinación puede ser útil, pero también introduce dependencias y errores nuevos.",
+      "sample": "Imágenes y textos con correspondencia documentada",
+      "method": "Aprendizaje de representaciones compartidas y pruebas de tareas",
+      "units": "Métricas de clasificación, recuperación o segmentación según tarea",
+      "why": {
+        "text": "Una tarea biomédica puede requerir información que una sola modalidad no contiene; la propuesta debe definir qué aporta cada una.",
+        "refs": [
+          "38504017",
+          "37045921"
+        ]
+      },
+      "findings": {
+        "text": "CONCH se preentrenó con pares de imagen y descripción de patología y se evaluó en 14 benchmarks. Sus resultados se limitan a las tareas y conjuntos examinados.",
+        "refs": [
+          "38504017",
+          "37045921"
+        ]
+      },
+      "limits": {
+        "text": "No debe confundirse alineación entre imagen y texto con razonamiento clínico fiable. La calidad del emparejamiento y los cambios de centro requieren evaluación.",
+        "refs": [
+          "38504017",
+          "37045921"
+        ]
+      },
+      "thesis": {
+        "text": "¿La combinación de imagen y texto aporta una mejora reproducible respecto de usar cada modalidad por separado?",
+        "refs": [
+          "38504017",
+          "37045921"
+        ],
+        "status": "Hipótesis / pregunta de evaluación"
+      },
+      "terms": [
+        "Modalidad",
+        "Representación",
+        "Generalización"
+      ]
+    },
+    {
+      "id": "modelo-unicelular",
+      "name": "Modelos de IA unicelular",
+      "short": "scGPT",
+      "category": "Biología computacional",
+      "kind": "Modelo de investigación",
+      "context": "Perfiles moleculares por célula; conjuntos de secuenciación",
+      "evidence": "Desarrollo de modelo y evaluación de tareas",
+      "clinical": "Ejemplo de investigación; el desempeño computacional no demuestra utilidad clínica ni mayor longevidad",
+      "refs": [
+        "38409223"
+      ],
+      "search": "single cell foundation model generative AI benchmark",
+      "summary": "Aprenden representaciones de datos por célula para reutilizarlas en tareas definidas. No son una célula completa simulada.",
+      "sample": "Perfiles moleculares unicelulares con procedencia y lotes documentados",
+      "method": "Preentrenamiento generativo y adaptación a tareas",
+      "units": "Métricas de anotación, integración o predicción, según protocolo",
+      "why": {
+        "text": "Los datos unicelulares permiten formular tareas de anotación e integración que pueden compararse con métodos de referencia.",
+        "refs": [
+          "38409223"
+        ]
+      },
+      "findings": {
+        "text": "El resumen de scGPT describe preentrenamiento sobre más de 33 millones de células y adaptación a anotación, integración y otras tareas. No acredita rendimiento universal.",
+        "refs": [
+          "38409223"
+        ]
+      },
+      "limits": {
+        "text": "Esta ficha usa metadatos y resumen; no se revisó el protocolo completo ni todos los suplementos. Debe verificarse separación de conjuntos, lotes y población de uso.",
+        "refs": [
+          "38409223"
+        ]
+      },
+      "thesis": {
+        "text": "¿Se conserva el desempeño al evaluar un conjunto independiente, con una separación explícita entre datos usados para ajustar y para medir resultados?",
+        "refs": [
+          "38409223"
+        ],
+        "status": "Hipótesis / pregunta de evaluación"
+      },
+      "terms": [
+        "Representación",
+        "Transferencia",
+        "Validación externa"
+      ]
+    },
+    {
+      "id": "celula-virtual",
+      "name": "Célula virtual con IA",
+      "short": "AI Virtual Cell",
+      "category": "Biología computacional",
+      "kind": "Marco de investigación",
+      "context": "Propuesta multiescala de simulación biológica",
+      "evidence": "Perspectiva; visión de desarrollo y evaluación",
+      "clinical": "Ejemplo de investigación; el desempeño computacional no demuestra utilidad clínica ni mayor longevidad",
+      "refs": [
+        "39672099"
+      ],
+      "search": "AI virtual cell biological simulation evaluation",
+      "summary": "Una propuesta de modelos capaces de representar y simular estados biológicos. Es una agenda de investigación, no una simulación universal ya validada.",
+      "sample": "Datos biológicos de distintas escalas y condiciones",
+      "method": "Representaciones aprendidas y evaluación de predicciones",
+      "units": "Errores de predicción por tarea y escala; no una unidad única",
+      "why": {
+        "text": "La perspectiva de célula virtual propone conectar datos y modelos para orientar preguntas y nuevas mediciones.",
+        "refs": [
+          "39672099"
+        ]
+      },
+      "findings": {
+        "text": "El artículo publicado en Cell organiza una visión de capacidades, datos y evaluación para una célula virtual. Presenta prioridades y oportunidades, no una validación clínica de un sistema universal.",
+        "refs": [
+          "39672099"
+        ]
+      },
+      "limits": {
+        "text": "Representar un estado observado y predecir un cambio no son equivalentes. Las hipótesis generadas requieren contrastación independiente.",
+        "refs": [
+          "39672099"
+        ]
+      },
+      "thesis": {
+        "text": "¿Qué predicción concreta haría útil un simulador y con qué datos independientes se contrastaría antes de extrapolar a salud o envejecimiento?",
+        "refs": [
+          "39672099"
+        ],
+        "status": "Hipótesis / pregunta de evaluación"
+      },
+      "terms": [
+        "Célula virtual",
+        "Incertidumbre",
+        "Validación externa"
+      ]
+    },
+    {
+      "id": "modelo-genomico",
+      "name": "Modelos genómicos de IA",
+      "short": "Evo 2",
+      "category": "IA molecular",
+      "kind": "Modelo de investigación",
+      "context": "Secuencias de ADN y evaluación de variantes",
+      "evidence": "Desarrollo y evaluación computacional; publicación de 2026",
+      "clinical": "Ejemplo de investigación; el desempeño computacional no demuestra utilidad clínica ni mayor longevidad",
+      "refs": [
+        "41781614"
+      ],
+      "search": "Evo 2 genomic foundation model variant prediction validation",
+      "summary": "Aprenden patrones de secuencias para tareas como puntuar variantes. Una secuencia plausible o una predicción no prueba función biológica.",
+      "sample": "Secuencias genómicas y conjuntos de evaluación independientes",
+      "method": "Modelo de lenguaje genómico y comparación con referencias",
+      "units": "Puntuaciones del modelo y métricas de evaluación por tarea",
+      "why": {
+        "text": "Los modelos genómicos exploran si el preentrenamiento permite reutilizar información de secuencias en tareas diferentes.",
+        "refs": [
+          "41781614"
+        ]
+      },
+      "findings": {
+        "text": "Evo 2, publicado en Nature en marzo de 2026, informa evaluación de predicción y generación a escala genómica. Sus autores aclaran que las métricas computacionales no garantizan genomas funcionales.",
+        "refs": [
+          "41781614"
+        ]
+      },
+      "limits": {
+        "text": "La plausibilidad estadística no valida una función ni un efecto en personas. Las tareas, datos y representatividad deben analizarse antes de interpretar puntuaciones.",
+        "refs": [
+          "41781614"
+        ]
+      },
+      "thesis": {
+        "text": "¿Una puntuación aporta información reproducible en un conjunto independiente y añade valor a una referencia adecuada para esa misma tarea?",
+        "refs": [
+          "41781614"
+        ],
+        "status": "Hipótesis / pregunta de evaluación"
+      },
+      "terms": [
+        "Modelo fundacional",
+        "Benchmark",
+        "Incertidumbre"
+      ]
+    },
+    {
+      "id": "estructura-proteica",
+      "name": "Predicción de estructura proteica",
+      "short": "AlphaFold 3",
+      "category": "IA molecular",
+      "kind": "Predicción estructural",
+      "context": "Complejos biomoleculares y estructuras de referencia",
+      "evidence": "Evaluación estructural computacional",
+      "clinical": "Ejemplo de investigación; el desempeño computacional no demuestra utilidad clínica ni mayor longevidad",
+      "refs": [
+        "38718835"
+      ],
+      "search": "AlphaFold 3 structure prediction model limitations",
+      "summary": "Predice configuraciones estructurales de biomoléculas. Una estructura predicha no equivale a actividad demostrada ni a respuesta clínica.",
+      "sample": "Componentes de complejos y estructuras experimentales de referencia",
+      "method": "Predicción basada en difusión y evaluación estructural",
+      "units": "Métricas estructurales y confianza específica del modelo",
+      "why": {
+        "text": "Las predicciones ayudan a formular preguntas sobre organización molecular que deben contrastarse con evidencia independiente.",
+        "refs": [
+          "38718835"
+        ]
+      },
+      "findings": {
+        "text": "AlphaFold 3 evalúa una aproximación unificada a distintos complejos biomoleculares. El artículo describe fallos estereoquímicos, regiones con orden espurio y limitaciones para representar dinámica.",
+        "refs": [
+          "38718835"
+        ]
+      },
+      "limits": {
+        "text": "La confianza del modelo no sustituye validación experimental. Las estructuras estáticas no representan por sí solas el conjunto de estados de un sistema.",
+        "refs": [
+          "38718835"
+        ]
+      },
+      "thesis": {
+        "text": "¿Qué observación independiente permitiría distinguir una predicción estructural útil de una configuración plausible pero incorrecta?",
+        "refs": [
+          "38718835"
+        ],
+        "status": "Hipótesis / pregunta de evaluación"
+      },
+      "terms": [
+        "Predicción estructural",
+        "Incertidumbre",
+        "Benchmark"
+      ]
+    },
+    {
+      "id": "riesgo-predictivo",
+      "name": "Predicción de riesgo con IA",
+      "short": "RETFound",
+      "category": "Evaluación clínica",
+      "kind": "Modelo predictivo",
+      "context": "Imágenes de retina y desenlaces definidos en cohortes",
+      "evidence": "Desarrollo y evaluación retrospectiva de predicción",
+      "clinical": "Ejemplo de investigación; el desempeño computacional no demuestra utilidad clínica ni mayor longevidad",
+      "refs": [
+        "37704728"
+      ],
+      "search": "retinal foundation model disease risk external validation",
+      "summary": "Estima un desenlace definido a partir de datos disponibles. Una predicción de riesgo no demuestra que una intervención mejore la salud.",
+      "sample": "Imágenes de retina y etiquetas de desenlaces con seguimiento",
+      "method": "Preentrenamiento autosupervisado y adaptación supervisada",
+      "units": "AUROC/AUPR informadas; calibración y errores por grupo por evaluar",
+      "why": {
+        "text": "La evaluación de riesgo exige especificar población, desenlace y horizonte temporal, además de la entrada del algoritmo.",
+        "refs": [
+          "37704728"
+        ]
+      },
+      "findings": {
+        "text": "RETFound se preentrenó con imágenes de retina sin etiquetas y se adaptó a tareas oculares y predicción de desenlaces sistémicos. Los resultados corresponden a sus conjuntos y tareas.",
+        "refs": [
+          "37704728"
+        ]
+      },
+      "limits": {
+        "text": "Muchos datos de desarrollo procedían de cohortes británicas. La evaluación retrospectiva no establece beneficio de uso; otras poblaciones y objetivos de envejecimiento requieren comprobación apropiada.",
+        "refs": [
+          "37704728"
+        ]
+      },
+      "thesis": {
+        "text": "¿El modelo mantiene calibración y discriminación en otra población y aporta una mejora relevante frente a una alternativa existente?",
+        "refs": [
+          "37704728"
+        ],
+        "status": "Hipótesis / pregunta de evaluación"
+      },
+      "terms": [
+        "Discriminación",
+        "Calibración",
+        "Validación externa"
+      ]
+    },
+    {
+      "id": "validacion-externa",
+      "name": "Validación externa de IA",
+      "short": "Generalización",
+      "category": "Evaluación clínica",
+      "kind": "Criterio metodológico",
+      "context": "Modelos predictivos evaluados fuera de sus datos de desarrollo",
+      "evidence": "Guía de reporte y ejemplo de evaluación",
+      "clinical": "Ejemplo de investigación; el desempeño computacional no demuestra utilidad clínica ni mayor longevidad",
+      "refs": [
+        "38626948",
+        "37704728"
+      ],
+      "search": "TRIPOD AI external validation prediction models",
+      "summary": "Evalúa el modelo en datos separados de su desarrollo, con diferencias relevantes documentadas. Ayuda a conocer dónde puede fallar.",
+      "sample": "Conjuntos de evaluación con procedencia, población y fechas descritas",
+      "method": "Protocolo separado de entrenamiento y ajuste; reporte de desempeño",
+      "units": "Métricas e incertidumbre adecuadas al desenlace",
+      "why": {
+        "text": "Una evaluación debe describir los datos y el procedimiento que sustentan una afirmación de rendimiento.",
+        "refs": [
+          "38626948",
+          "37704728"
+        ]
+      },
+      "findings": {
+        "text": "TRIPOD+AI actualiza recomendaciones de reporte para modelos predictivos de regresión o aprendizaje automático. Es una guía de transparencia, no una certificación de un modelo.",
+        "refs": [
+          "38626948",
+          "37704728"
+        ]
+      },
+      "limits": {
+        "text": "Reportar todos los elementos no elimina sesgo ni garantiza utilidad. La guía se dirige principalmente a modelos predictivos no generativos; hay que revisar diferencias de población, fuga de datos e incertidumbre.",
+        "refs": [
+          "38626948",
+          "37704728"
+        ]
+      },
+      "thesis": {
+        "text": "¿El protocolo distingue evaluación interna y externa, informa cómo se eligieron los datos y evita usar el conjunto final para ajustar decisiones?",
+        "refs": [
+          "38626948",
+          "37704728"
+        ],
+        "status": "Hipótesis / pregunta de evaluación"
+      },
+      "terms": [
+        "Validación externa",
+        "Fuga de datos",
+        "Generalización"
+      ]
+    },
+    {
+      "id": "evaluacion-sesgo",
+      "name": "Evaluación del sesgo en IA",
+      "short": "PROBAST+AI",
+      "category": "Evaluación clínica",
+      "kind": "Criterio metodológico",
+      "context": "Estudios de modelos de predicción en salud",
+      "evidence": "Herramienta de evaluación crítica",
+      "clinical": "Ejemplo de investigación; el desempeño computacional no demuestra utilidad clínica ni mayor longevidad",
+      "refs": [
+        "40127903",
+        "38626948"
+      ],
+      "search": "PROBAST AI risk of bias applicability prediction model",
+      "summary": "Examina si el diseño y la evaluación pueden producir conclusiones engañosas o poco aplicables. No se reduce a una puntuación de exactitud.",
+      "sample": "Descripción de participantes, predictores, desenlaces y análisis",
+      "method": "Valoración estructurada de calidad, riesgo de sesgo y aplicabilidad",
+      "units": "Juicios por dominios; no una nota universal del algoritmo",
+      "why": {
+        "text": "Comparar una cifra de desempeño sin revisar cómo se obtuvo puede ocultar problemas de selección, análisis o aplicabilidad.",
+        "refs": [
+          "40127903",
+          "38626948"
+        ]
+      },
+      "findings": {
+        "text": "PROBAST+AI actualiza la evaluación de modelos predictivos e incorpora atención al sesgo algorítmico y la equidad. Distingue calidad del desarrollo y riesgo de sesgo de la evaluación.",
+        "refs": [
+          "40127903",
+          "38626948"
+        ]
+      },
+      "limits": {
+        "text": "La aplicación exige información suficiente y juicio crítico; esta plataforma no realiza automáticamente esa valoración ni asigna una certificación.",
+        "refs": [
+          "40127903",
+          "38626948"
+        ]
+      },
+      "thesis": {
+        "text": "¿Qué información falta para valorar el estudio y qué diferencias entre grupos deben investigarse antes de interpretar su posible uso?",
+        "refs": [
+          "40127903",
+          "38626948"
+        ],
+        "status": "Hipótesis / pregunta de evaluación"
+      },
+      "terms": [
+        "Sesgo",
+        "Calibración",
+        "Fuga de datos"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "modelo-unicelular",
+      "status": "Relación metodológica",
+      "label": "Preentrenar y evaluar son pasos distintos",
+      "text": "La reutilización de un modelo requiere una evaluación específica de la tarea y de los datos de destino; el tamaño del entrenamiento no reemplaza esa comprobación.",
+      "refs": [
+        "37045921",
+        "38409223"
+      ],
+      "from": "modelos-fundacionales"
+    },
+    {
+      "to": "validacion-externa",
+      "status": "Relación metodológica",
+      "label": "Combinar modalidades exige comprobar generalización",
+      "text": "Las pruebas deben examinar qué aporta cada modalidad y cómo cambia el resultado en datos separados del desarrollo.",
+      "refs": [
+        "38504017",
+        "38626948"
+      ],
+      "from": "ia-multimodal"
+    },
+    {
+      "to": "modelo-genomico",
+      "status": "Hipótesis / pregunta de evaluación",
+      "label": "Las escalas biológicas no son intercambiables",
+      "text": "Una predicción de secuencia podría orientar una pregunta de simulación, pero no demuestra que un modelo represente por completo un sistema biológico.",
+      "refs": [
+        "39672099",
+        "41781614"
+      ],
+      "from": "celula-virtual"
+    },
+    {
+      "to": "celula-virtual",
+      "status": "Relación metodológica",
+      "label": "Una estructura no equivale a una simulación completa",
+      "text": "La organización molecular predicha y el comportamiento de un sistema requieren validaciones distintas. No se deduce dinámica ni función de una configuración aislada.",
+      "refs": [
+        "38718835",
+        "39672099"
+      ],
+      "from": "estructura-proteica"
+    },
+    {
+      "to": "evaluacion-sesgo",
+      "status": "Relación metodológica",
+      "label": "La predicción necesita evaluación crítica",
+      "text": "Un resultado de desempeño debe leerse junto con el diseño, la población, la incertidumbre y la aplicabilidad; no implica beneficio clínico por sí solo.",
+      "refs": [
+        "37704728",
+        "40127903",
+        "38626948"
+      ],
+      "from": "riesgo-predictivo"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Modelo fundacional",
+      "definition": "Modelo preentrenado que puede adaptarse a diferentes tareas; cada uso requiere evaluación propia.",
+      "refs": [
+        "37045921"
+      ]
+    },
+    {
+      "term": "Aprendizaje autosupervisado",
+      "definition": "Entrenamiento que obtiene una señal de aprendizaje de la propia estructura de los datos.",
+      "refs": [
+        "37045921",
+        "37704728"
+      ]
+    },
+    {
+      "term": "Modalidad",
+      "definition": "Tipo de información, como una imagen o un texto, con su propio proceso de adquisición.",
+      "refs": [
+        "38504017",
+        "37045921"
+      ]
+    },
+    {
+      "term": "Representación",
+      "definition": "Descripción numérica aprendida de los datos; su utilidad depende de la tarea evaluada.",
+      "refs": [
+        "38409223",
+        "38504017"
+      ]
+    },
+    {
+      "term": "Transferencia",
+      "definition": "Adaptación o reutilización de lo aprendido en una tarea o conjunto para otro objetivo.",
+      "refs": [
+        "37045921",
+        "38409223"
+      ]
+    },
+    {
+      "term": "Benchmark",
+      "definition": "Conjunto de tareas y reglas para comparar desempeño bajo condiciones definidas.",
+      "refs": [
+        "37438534",
+        "38718835"
+      ]
+    },
+    {
+      "term": "Validación externa",
+      "definition": "Evaluación con datos separados del desarrollo, documentando sus diferencias relevantes.",
+      "refs": [
+        "38626948"
+      ]
+    },
+    {
+      "term": "Fuga de datos",
+      "definition": "Uso de información de evaluación en el desarrollo o ajuste que puede distorsionar el desempeño estimado.",
+      "refs": [
+        "38626948",
+        "40127903"
+      ]
+    },
+    {
+      "term": "Calibración",
+      "definition": "Correspondencia entre las probabilidades predichas y la frecuencia observada del desenlace.",
+      "refs": [
+        "38626948",
+        "40127903"
+      ]
+    },
+    {
+      "term": "Discriminación",
+      "definition": "Capacidad de distinguir casos con y sin el desenlace definido; no equivale a calibración.",
+      "refs": [
+        "38626948"
+      ]
+    },
+    {
+      "term": "Sesgo",
+      "definition": "Problema sistemático del diseño o análisis que puede distorsionar una conclusión.",
+      "refs": [
+        "40127903"
+      ]
+    },
+    {
+      "term": "Incertidumbre",
+      "definition": "Límite de precisión o conocimiento que debe acompañar la interpretación de una predicción.",
+      "refs": [
+        "38626948",
+        "38718835"
+      ]
+    },
+    {
+      "term": "Célula virtual",
+      "definition": "Visión de modelos aprendidos para representar y simular estados biológicos; requiere objetivos y validación explícitos.",
+      "refs": [
+        "39672099"
+      ]
+    },
+    {
+      "term": "Predicción estructural",
+      "definition": "Estimación computacional de una configuración molecular, distinta de demostrar actividad biológica.",
+      "refs": [
+        "38718835"
+      ]
+    },
+    {
+      "term": "Generalización",
+      "definition": "Comportamiento del modelo en datos o contextos diferentes de los utilizados para desarrollarlo.",
+      "refs": [
+        "37045921",
+        "38626948"
+      ]
+    },
+    {
+      "term": "Propuesta no validada",
+      "definition": "Pregunta o aplicación posible que todavía necesita pruebas apropiadas para sostener una conclusión.",
+      "refs": [
+        "39672099",
+        "38626948"
+      ]
+    }
+  ]
+}

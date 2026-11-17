@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-10",
+  "starter_concepts": [
+    "modelos fundacionales biomédicos",
+    "IA multimodal",
+    "célula virtual"
+  ],
+  "relation_note": "Propuesta editorial de términos para buscar. El vocabulario y los enlaces no verifican una relación causal, eficacia ni pertinencia de los resultados. No se añaden conceptos ni se consulta internet automáticamente.",
+  "method": "Las traducciones, variantes y razones son editoriales. Se enlazan descriptores MeSH verificados y publicaciones primarias del ejemplo público de biomedicina e IA; no se atribuyen a una ontología completa ni a relaciones extraídas automáticamente.",
+  "sources": [
+    {
+      "title": "NLM: Medical Subject Headings",
+      "url": "https://www.nlm.nih.gov/mesh/index.html",
+      "access": "Documentación de vocabulario y descriptores cotejados"
+    },
+    {
+      "title": "Foundation models for generalist medical artificial intelligence",
+      "pmid": "37045921",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37045921/",
+      "access": "Metadatos y términos del ejemplo editorial"
+    },
+    {
+      "title": "TRIPOD+AI statement",
+      "pmid": "38626948",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38626948/",
+      "access": "Guía de reporte para términos metodológicos; no valida modelos"
+    },
+    {
+      "title": "PROBAST+AI",
+      "pmid": "40127903",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40127903/",
+      "access": "Guía de evaluación para términos metodológicos"
+    }
+  ],
+  "longevity_themes": [
+    "foundation-models",
+    "multimodal-ai",
+    "virtual-cell",
+    "genomic-ai",
+    "predictive-models"
+  ],
+  "fallback_concepts": [
+    "external-validation",
+    "reproducibility",
+    "data-quality"
+  ],
+  "concepts": [
+    {
+      "id": "foundation-models",
+      "term": "biomedical foundation models",
+      "label": "Modelos fundacionales biomédicos",
+      "aliases": [
+        "modelos fundacionales biomédicos",
+        "modelos fundacionales biomedicos",
+        "biomedical foundation model"
+      ],
+      "search_terms": [
+        "biomedical foundation models",
+        "biomedical foundation model"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37045921/",
+      "source_label": "Modelos médicos generalistas: PMID 37045921; vocabulario editorial",
+      "related": [
+        {
+          "id": "multimodal-ai",
+          "relation_type": "adjacent",
+          "reason": "Propone explorar modelos que integran modalidades; no presupone que un modelo fundacional sea multimodal."
+        },
+        {
+          "id": "external-validation",
+          "relation_type": "method",
+          "reason": "Ayuda a buscar evaluación en datos no utilizados al desarrollar el modelo."
+        },
+        {
+          "id": "data-quality",
+          "relation_type": "control",
+          "reason": "Permite revisar procedencia, etiquetas y cobertura de los datos antes de interpretar rendimiento."
+        }
+      ]
+    },
+    {
+      "id": "multimodal-ai",
+      "term": "multimodal artificial intelligence",
+      "label": "IA multimodal",
+      "aliases": [
+        "IA multimodal",
+        "multimodal AI",
+        "inteligencia artificial multimodal"
+      ],
+      "search_terms": [
+        "multimodal artificial intelligence",
+        "multimodal AI"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38504017/",
+      "source_label": "CONCH: PMID 38504017; vocabulario de imagen y texto",
+      "related": [
+        {
+          "id": "foundation-models",
+          "relation_type": "broader",
+          "reason": "Amplía hacia preentrenamiento y reutilización de representaciones; son ejes distintos."
+        },
+        {
+          "id": "data-quality",
+          "relation_type": "control",
+          "reason": "Propone revisar alineación, modalidades ausentes y etiquetas de referencia."
+        },
+        {
+          "id": "bias-assessment",
+          "relation_type": "control",
+          "reason": "Permite investigar diferencias de rendimiento entre grupos y contextos."
+        }
+      ]
+    },
+    {
+      "id": "virtual-cell",
+      "term": "virtual cell",
+      "label": "Célula virtual",
+      "aliases": [
+        "célula virtual",
+        "celula virtual",
+        "AI virtual cell",
+        "virtual cells"
+      ],
+      "search_terms": [
+        "virtual cell",
+        "AI virtual cell"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39672099/",
+      "source_label": "Perspectiva sobre célula virtual: PMID 39672099; propuesta, no validación clínica",
+      "related": [
+        {
+          "id": "single-cell-model",
+          "relation_type": "adjacent",
+          "reason": "Acota hacia modelos de datos celulares; no equipara una representación con un simulador completo."
+        },
+        {
+          "id": "benchmark",
+          "relation_type": "method",
+          "reason": "Ayuda a definir tareas y comparadores para poner a prueba una propuesta de simulación."
+        },
+        {
+          "id": "external-validation",
+          "relation_type": "control",
+          "reason": "Permite buscar generalización a contextos y perturbaciones no vistos."
+        }
+      ]
+    },
+    {
+      "id": "single-cell-model",
+      "term": "single-cell foundation models",
+      "label": "Modelos fundacionales unicelulares",
+      "aliases": [
+        "modelos unicelulares",
+        "modelo unicelular",
+        "single cell foundation models",
+        "single-cell models"
+      ],
+      "search_terms": [
+        "single-cell foundation models",
+        "single cell foundation model"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38409223/",
+      "source_label": "scGPT: PMID 38409223; vocabulario metodológico",
+      "related": [
+        {
+          "id": "virtual-cell",
+          "relation_type": "adjacent",
+          "reason": "Propone contrastar representaciones celulares con una visión de simulación más amplia."
+        },
+        {
+          "id": "data-quality",
+          "relation_type": "control",
+          "reason": "Ayuda a revisar calidad, procedencia y diferencias entre conjuntos de datos."
+        },
+        {
+          "id": "external-validation",
+          "relation_type": "method",
+          "reason": "Permite buscar evaluación fuera del conjunto usado para adaptar el modelo."
+        }
+      ]
+    },
+    {
+      "id": "genomic-ai",
+      "term": "genomic foundation models",
+      "label": "IA genómica",
+      "aliases": [
+        "IA genómica",
+        "IA genomica",
+        "genomic AI",
+        "genomic foundation model"
+      ],
+      "search_terms": [
+        "genomic foundation models",
+        "genomic AI"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41781614/",
+      "source_label": "Evo 2: PMID 41781614; vocabulario metodológico",
+      "related": [
+        {
+          "id": "foundation-models",
+          "relation_type": "broader",
+          "reason": "Amplía la estrategia de búsqueda hacia modelos preentrenados y tareas de adaptación."
+        },
+        {
+          "id": "benchmark",
+          "relation_type": "method",
+          "reason": "Permite revisar tareas de evaluación y conjuntos reservados antes de interpretar capacidad predictiva."
+        },
+        {
+          "id": "bias-assessment",
+          "relation_type": "control",
+          "reason": "Propone revisar cobertura y límites de generalización, sin asumir equivalencia entre poblaciones."
+        }
+      ]
+    },
+    {
+      "id": "protein-structure",
+      "term": "protein structure prediction",
+      "label": "Predicción de estructura proteica",
+      "aliases": [
+        "estructura proteica",
+        "predicción de estructura proteica",
+        "prediccion de estructura proteica"
+      ],
+      "search_terms": [
+        "protein structure prediction"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38718835/",
+      "source_label": "AlphaFold 3: PMID 38718835; vocabulario metodológico",
+      "related": [
+        {
+          "id": "generative-ai",
+          "relation_type": "adjacent",
+          "reason": "Ofrece una búsqueda sobre enfoques generativos; no convierte predicción estructural en validación funcional."
+        },
+        {
+          "id": "benchmark",
+          "relation_type": "method",
+          "reason": "Permite buscar conjuntos y criterios de comparación independientes."
+        },
+        {
+          "id": "reproducibility",
+          "relation_type": "control",
+          "reason": "Ayuda a revisar disponibilidad de métodos, datos y condiciones de evaluación."
+        }
+      ]
+    },
+    {
+      "id": "predictive-models",
+      "term": "clinical prediction models",
+      "label": "Modelos de predicción clínica",
+      "aliases": [
+        "predicción clínica",
+        "prediccion clinica",
+        "clinical risk prediction",
+        "predictive models"
+      ],
+      "search_terms": [
+        "clinical prediction models",
+        "clinical risk prediction"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37704728/",
+      "source_label": "RETFound: PMID 37704728; ejemplo de modelo predictivo",
+      "related": [
+        {
+          "id": "calibration",
+          "relation_type": "method",
+          "reason": "Permite distinguir la concordancia de probabilidades de otras métricas de discriminación."
+        },
+        {
+          "id": "external-validation",
+          "relation_type": "control",
+          "reason": "Ayuda a buscar rendimiento en una población o centro independiente."
+        },
+        {
+          "id": "bias-assessment",
+          "relation_type": "control",
+          "reason": "Propone revisar selección, medición y desempeño por grupos antes de trasladar el modelo."
+        }
+      ]
+    },
+    {
+      "id": "external-validation",
+      "term": "external validation",
+      "label": "Validación externa",
+      "aliases": [
+        "validación externa",
+        "validacion externa",
+        "independent validation"
+      ],
+      "search_terms": [
+        "external validation",
+        "independent validation"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38626948/",
+      "source_label": "TRIPOD+AI: PMID 38626948; guía de reporte",
+      "related": [
+        {
+          "id": "calibration",
+          "relation_type": "method",
+          "reason": "Añade evaluación de probabilidades además de una cifra global de rendimiento."
+        },
+        {
+          "id": "bias-assessment",
+          "relation_type": "control",
+          "reason": "Ayuda a preguntar qué diferencias de datos o diseño limitan la generalización."
+        },
+        {
+          "id": "reproducibility",
+          "relation_type": "method",
+          "reason": "Permite contrastar repetición técnica y evaluación externa sin tratarlas como equivalentes."
+        }
+      ]
+    },
+    {
+      "id": "bias-assessment",
+      "term": "risk of bias",
+      "label": "Evaluación de sesgo",
+      "aliases": [
+        "evaluación de sesgo",
+        "evaluacion de sesgo",
+        "bias assessment",
+        "riesgo de sesgo"
+      ],
+      "search_terms": [
+        "risk of bias",
+        "bias assessment"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40127903/",
+      "source_label": "PROBAST+AI: PMID 40127903; guía de evaluación",
+      "related": [
+        {
+          "id": "data-quality",
+          "relation_type": "control",
+          "reason": "Permite explorar selección de datos, etiquetas y datos faltantes."
+        },
+        {
+          "id": "external-validation",
+          "relation_type": "method",
+          "reason": "Añade evidencia sobre transferencia a otros contextos, sin eliminar por sí sola el sesgo."
+        },
+        {
+          "id": "calibration",
+          "relation_type": "method",
+          "reason": "Propone revisar errores de probabilidad además de métricas agregadas."
+        }
+      ]
+    },
+    {
+      "id": "artificial-intelligence",
+      "term": "artificial intelligence",
+      "label": "Inteligencia artificial",
+      "aliases": [
+        "inteligencia artificial",
+        "IA",
+        "AI"
+      ],
+      "search_terms": [
+        "artificial intelligence"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/mesh/68001185",
+      "source_label": "Vocabulario MeSH / NLM: Artificial Intelligence",
+      "related": [
+        {
+          "id": "machine-learning",
+          "relation_type": "adjacent",
+          "reason": "Acota una familia de métodos de IA; no supone que toda IA use aprendizaje automático."
+        },
+        {
+          "id": "foundation-models",
+          "relation_type": "adjacent",
+          "reason": "Propone explorar un tipo de modelo de interés actual en biomedicina."
+        },
+        {
+          "id": "bias-assessment",
+          "relation_type": "method",
+          "reason": "Añade una búsqueda sobre límites metodológicos antes de adoptar resultados."
+        }
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "term": "machine learning",
+      "label": "Aprendizaje automático",
+      "aliases": [
+        "aprendizaje automático",
+        "aprendizaje automatico",
+        "ML"
+      ],
+      "search_terms": [
+        "machine learning"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/mesh/2010029",
+      "source_label": "Vocabulario MeSH / NLM: Machine Learning",
+      "related": [
+        {
+          "id": "deep-learning",
+          "relation_type": "adjacent",
+          "reason": "Acota una familia de métodos; no trata ambos términos como sinónimos."
+        },
+        {
+          "id": "external-validation",
+          "relation_type": "method",
+          "reason": "Permite buscar separación de desarrollo y evaluación independiente."
+        },
+        {
+          "id": "benchmark",
+          "relation_type": "control",
+          "reason": "Ayuda a revisar si las comparaciones usan tareas y datos compatibles."
+        }
+      ]
+    },
+    {
+      "id": "deep-learning",
+      "term": "deep learning",
+      "label": "Aprendizaje profundo",
+      "aliases": [
+        "aprendizaje profundo",
+        "DL"
+      ],
+      "search_terms": [
+        "deep learning"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/mesh/2027997",
+      "source_label": "Vocabulario MeSH / NLM: Deep Learning",
+      "related": [
+        {
+          "id": "machine-learning",
+          "relation_type": "broader",
+          "reason": "Amplía hacia la familia metodológica que incluye aprendizaje profundo."
+        },
+        {
+          "id": "generative-ai",
+          "relation_type": "adjacent",
+          "reason": "Propone buscar generación de datos o representaciones sin equipararla a todo aprendizaje profundo."
+        },
+        {
+          "id": "data-quality",
+          "relation_type": "control",
+          "reason": "Permite revisar información de entrenamiento y etiquetas utilizadas."
+        }
+      ]
+    },
+    {
+      "id": "generative-ai",
+      "term": "generative artificial intelligence",
+      "label": "IA generativa",
+      "aliases": [
+        "IA generativa",
+        "generative AI",
+        "inteligencia artificial generativa"
+      ],
+      "search_terms": [
+        "generative artificial intelligence",
+        "generative AI"
+      ],
+      "source_url": "https://meshb.nlm.nih.gov/record/ui?ui=D000098842",
+      "source_label": "Vocabulario MeSH / NLM: Generative Artificial Intelligence",
+      "related": [
+        {
+          "id": "foundation-models",
+          "relation_type": "adjacent",
+          "reason": "Ofrece un cruce con modelos preentrenados, sin afirmar que todos sean generativos."
+        },
+        {
+          "id": "benchmark",
+          "relation_type": "method",
+          "reason": "Permite buscar evaluación de salidas y comparadores, no solo ejemplos seleccionados."
+        },
+        {
+          "id": "bias-assessment",
+          "relation_type": "control",
+          "reason": "Ayuda a revisar limitaciones, errores y cobertura de la evaluación."
+        }
+      ]
+    },
+    {
+      "id": "reproducibility",
+      "term": "reproducibility",
+      "label": "Reproducibilidad de resultados",
+      "aliases": [
+        "reproducibilidad",
+        "reproducibility of results"
+      ],
+      "search_terms": [
+        "reproducibility",
+        "reproducibility of results"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/mesh/68015203",
+      "source_label": "Vocabulario MeSH / NLM: Reproducibility of Results",
+      "related": [
+        {
+          "id": "data-quality",
+          "relation_type": "method",
+          "reason": "Propone revisar procedencia y preparación de datos para repetir el análisis."
+        },
+        {
+          "id": "benchmark",
+          "relation_type": "control",
+          "reason": "Permite buscar comparaciones bajo condiciones y particiones identificables."
+        }
+      ]
+    },
+    {
+      "id": "data-quality",
+      "term": "data quality",
+      "label": "Calidad de datos",
+      "aliases": [
+        "calidad de datos"
+      ],
+      "search_terms": [
+        "data quality"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38626948/",
+      "source_label": "TRIPOD+AI: PMID 38626948; guía de reporte",
+      "related": [
+        {
+          "id": "bias-assessment",
+          "relation_type": "control",
+          "reason": "Ayuda a buscar cómo selección, medición y datos faltantes afectan la evaluación."
+        },
+        {
+          "id": "reproducibility",
+          "relation_type": "method",
+          "reason": "Añade una búsqueda sobre documentación de preparación de datos y etiquetas."
+        },
+        {
+          "id": "external-validation",
+          "relation_type": "method",
+          "reason": "Permite contrastar el desarrollo con datos de otro contexto."
+        }
+      ]
+    },
+    {
+      "id": "calibration",
+      "term": "model calibration",
+      "label": "Calibración de modelos",
+      "aliases": [
+        "calibración",
+        "calibracion",
+        "calibración de modelos",
+        "calibration"
+      ],
+      "search_terms": [
+        "model calibration",
+        "prediction model calibration"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38626948/",
+      "source_label": "TRIPOD+AI: PMID 38626948; guía de reporte",
+      "related": [
+        {
+          "id": "predictive-models",
+          "relation_type": "broader",
+          "reason": "Sitúa la calibración dentro de la evaluación de modelos predictivos."
+        },
+        {
+          "id": "external-validation",
+          "relation_type": "control",
+          "reason": "Ayuda a buscar si las probabilidades siguen siendo útiles en otro conjunto."
+        },
+        {
+          "id": "bias-assessment",
+          "relation_type": "method",
+          "reason": "Propone revisar errores de probabilidad entre grupos, no solo el promedio."
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "term": "benchmarking",
+      "label": "Evaluación con benchmarks",
+      "aliases": [
+        "benchmark",
+        "benchmarks",
+        "evaluación comparativa",
+        "evaluacion comparativa"
+      ],
+      "search_terms": [
+        "benchmarking",
+        "benchmark evaluation"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38626948/",
+      "source_label": "TRIPOD+AI: PMID 38626948; guía de reporte",
+      "related": [
+        {
+          "id": "external-validation",
+          "relation_type": "control",
+          "reason": "Permite comprobar si una comparación representa realmente un conjunto independiente."
+        },
+        {
+          "id": "data-quality",
+          "relation_type": "method",
+          "reason": "Añade una búsqueda sobre etiquetas, particiones y cobertura de la tarea."
+        },
+        {
+          "id": "reproducibility",
+          "relation_type": "method",
+          "reason": "Ayuda a buscar métodos y condiciones suficientes para repetir la comparación."
+        }
+      ]
+    },
+    {
+      "id": "aging",
+      "term": "aging",
+      "label": "Envejecimiento",
+      "aliases": [
+        "ageing",
+        "envejecimiento",
+        "biological aging"
+      ],
+      "search_terms": [
+        "aging",
+        "ageing",
+        "biological aging"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/mesh/68000375",
+      "source_label": "Vocabulario MeSH / NLM: Aging",
+      "related": [
+        {
+          "id": "longevity",
+          "relation_type": "adjacent",
+          "reason": "Amplía hacia duración de vida, sin equiparar una medición de edad con ese desenlace."
+        },
+        {
+          "id": "predictive-models",
+          "relation_type": "method",
+          "reason": "Propone buscar mediciones predictivas relacionadas con edad; no presupone utilidad clínica."
+        },
+        {
+          "id": "external-validation",
+          "relation_type": "control",
+          "reason": "Ayuda a revisar si un resultado se mantiene en otras edades o contextos."
+        }
+      ]
+    },
+    {
+      "id": "longevity",
+      "term": "longevity",
+      "label": "Longevidad",
+      "aliases": [
+        "longevidad",
+        "lifespan",
+        "life span"
+      ],
+      "search_terms": [
+        "longevity",
+        "lifespan"
+      ],
+      "source_url": "https://www.ncbi.nlm.nih.gov/mesh/68008136",
+      "source_label": "Vocabulario MeSH / NLM: Longevity",
+      "related": [
+        {
+          "id": "aging",
+          "relation_type": "broader",
+          "reason": "Amplía el contexto de búsqueda sin convertir cualquier resultado de envejecimiento en aumento de vida."
+        },
+        {
+          "id": "predictive-models",
+          "relation_type": "method",
+          "reason": "Propone explorar predicción y desenlaces, no una equivalencia entre precisión y beneficio."
+        },
+        {
+          "id": "external-validation",
+          "relation_type": "control",
+          "reason": "Ayuda a revisar poblaciones y tiempos de seguimiento antes de trasladar una conclusión."
+        }
+      ]
+    }
+  ]
+}

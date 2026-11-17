@@ -1,0 +1,73 @@
+{
+  "reviewed_on": "2026-11-10",
+  "sources": [
+    {
+      "id": "pubmed", "label": "PubMed / NCBI", "kind": "paper", "automatic": true,
+      "description": "Índice biomédico: identifica publicaciones, tipos y términos MeSH. Estar indexado no certifica la conclusión ni una revisión crítica del atlas.",
+      "docs_url": "https://www.ncbi.nlm.nih.gov/books/NBK25497/",
+      "date_basis": "Fecha de publicación informada por PubMed",
+      "query_semantics": "Consulta booleana de PubMed; puede aplicar traducción automática de términos.",
+      "limitations": "Hasta 20 registros; revisar diseño, modelo, muestra y posibles retractaciones. Se solapa con Europe PMC."
+    },
+    {
+      "id": "europepmc", "label": "Europe PMC · publicaciones", "kind": "paper", "automatic": true,
+      "description": "Índice de ciencias de la vida; este canal consulta registros MED. Aporta recuperación alternativa y enlaces a versiones públicas cuando existen.",
+      "docs_url": "https://europepmc.org/RestfulWebService",
+      "date_basis": "Primera publicación informada por Europe PMC",
+      "query_semantics": "Sintaxis de Europe PMC, restringida a SRC:MED; sus resultados y fechas pueden diferir de PubMed.",
+      "limitations": "No es una segunda confirmación independiente del mismo estudio. La indexación no demuestra revisión por pares ni validez."
+    },
+    {
+      "id": "preprints", "label": "Europe PMC · preprints", "kind": "preprint", "automatic": true,
+      "description": "Descubre manuscritos tempranos de repositorios indexados por Europe PMC mediante SRC:PPR.",
+      "docs_url": "https://europepmc.org/RestfulWebService",
+      "date_basis": "Primera publicación del preprint informada por Europe PMC",
+      "query_semantics": "Consulta de Europe PMC restringida a SRC:PPR y al intervalo indicado.",
+      "limitations": "Preprint: no se presume revisión por pares. Revisar versiones, retiro y eventual artículo publicado. Un cuartil de revista no se aplica al manuscrito."
+    },
+    {
+      "id": "crossref", "label": "Crossref · metadatos DOI", "kind": "paper", "automatic": true,
+      "description": "Registro de metadatos aportados por editoriales y otros depositantes; amplía cobertura e identifica DOI y revistas.",
+      "docs_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+      "date_basis": "Fecha de publicación depositada en Crossref, con su precisión original",
+      "query_semantics": "Búsqueda textual bibliográfica por relevancia dentro del intervalo. No equivale a ejecutar los operadores booleanos de PubMed; revisar pertinencia.",
+      "limitations": "Un DOI o el tipo journal-article no certifican revisión por pares. No cubre toda la literatura ni siempre incluye resumen. Las fechas pueden cambiar."
+    },
+    {
+      "id": "trials", "label": "ClinicalTrials.gov · estudios registrados", "kind": "trial", "automatic": true,
+      "description": "Registro público de estudios: permite seguir diseño declarado, fase, estado y cambios de registro, sin convertirlos en hallazgos publicados.",
+      "docs_url": "https://clinicaltrials.gov/data-api/api",
+      "date_basis": "Última actualización pública del registro; no fecha de descubrimiento ni de resultados",
+      "query_semantics": "Consulta de ClinicalTrials.gov con LastUpdatePostDate; puede aplicar expansión de términos del registro.",
+      "limitations": "Un estudio registrado, en reclutamiento o con resultados depositados no demuestra eficacia. Consultar el registro y evaluar métodos y resultados."
+    },
+    {
+      "id": "espacenet", "label": "Espacenet / EPO", "kind": "patent", "automatic": false,
+      "description": "Búsqueda manual mundial de documentos de patente y familias; ayuda a explorar reivindicaciones, prioridad y contexto técnico.",
+      "docs_url": "https://www.epo.org/en/searching-for-patents/technical/espacenet",
+      "search_url": "https://worldwide.espacenet.com/patent/search",
+      "limitations": "Espacenet no autoriza búsquedas automatizadas por robots. OPS ofrece API con registro y OAuth; no se configuraron cuentas ni credenciales. Una patente no prueba eficacia."
+    },
+    {
+      "id": "patentscope", "label": "PATENTSCOPE / WIPO", "kind": "patent", "automatic": false,
+      "description": "Búsqueda manual de solicitudes PCT publicadas y colecciones nacionales/regionales; permite ampliar términos y consultar IPC.",
+      "docs_url": "https://www.wipo.int/en/web/patentscope",
+      "search_url": "https://patentscope.wipo.int/search/en/advancedSearch.jsf",
+      "limitations": "Se prepara una consulta para copiar al formulario oficial; no se descargan resultados ni se afirma un estado legal vigente."
+    },
+    {
+      "id": "uspto", "label": "USPTO · Patent Public Search", "kind": "patent", "automatic": false,
+      "description": "Búsqueda manual de patentes y solicitudes estadounidenses; complementar con familias y otras jurisdicciones.",
+      "docs_url": "https://www.uspto.gov/patents/search/patent-public-search",
+      "search_url": "https://www.uspto.gov/patents/search/patent-public-search",
+      "limitations": "La API del Open Data Portal requiere API key y registro. Aquí se abre la entrada oficial y se entrega texto para copiar; no hay extracción automática."
+    },
+    {
+      "id": "bluesky", "label": "Bluesky · conversación pública", "kind": "social", "automatic": false,
+      "description": "Exploración manual de términos, autores y enlaces compartidos públicamente; sirve para encontrar pistas que deben rastrearse a la fuente original.",
+      "docs_url": "https://docs.bsky.app/docs/api/app-bsky-feed-search-posts",
+      "search_url": "https://bsky.app/search",
+      "limitations": "Señal social, sin validación científica. La búsqueda puede pedir inicio de sesión. No se conecta una cuenta, rastrea la red ni usa popularidad como calidad."
+    }
+  ]
+}

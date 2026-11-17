@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Una plataforma científica local para aprender y actualizarse en longevidad, seguir conceptos de investigación y explorar innovación con fuentes y límites explícitos.">
+  <meta name="theme-color" content="#1c443b">
+  <title>Atlas de longevidad · Mi espacio de estudio</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <aside class="sidebar" aria-label="Espacio de estudio">
+    <a class="brand" href="#/explorar" aria-label="Atlas de longevidad, inicio">
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M7 29V12l13-6 13 6v17l-13 6-13-6Z" stroke="currentColor" stroke-width="1.5"/><path d="m7 12 13 6 13-6M20 18v17M13 9l14 23" stroke="currentColor" stroke-width="1.5"/></svg>
+      <span>Atlas de<br><strong>longevidad</strong></span>
+    </a>
+    <p class="sidebar-caption">Actualización científica</p>
+    <nav id="navigation" aria-label="Navegación principal"></nav>
+    <div class="sidebar-bottom"><span class="local-dot" aria-hidden="true"></span><div>Solo en tu computador<small>Investigación · Espacio local</small></div></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <p id="breadcrumb">Biblioteca de conceptos</p>
+      <div class="top-actions"><button class="quiet" id="guide-button">Cómo usar el atlas</button><button class="button compact" id="refresh-button"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 7v5h-5M4 17v-5h5M6.1 6.1A8 8 0 0 1 20 12M4 12a8 8 0 0 0 13.9 5.9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>Actualizar evidencia</button></div>
+    </header>
+    <main id="main" tabindex="-1"><div class="initial-loading" role="status">Abriendo tu biblioteca local…</div></main>
+    <footer class="page-footer"><span>Un espacio para aprender, contrastar y hacer mejores preguntas.</span><span>Uso académico · Sin diagnóstico individual</span></footer>
+  </div>
+  <section class="compare-tray" id="compare-tray" aria-label="Selección para comparar" hidden></section>
+  <div class="sr-only" id="announcer" role="status" aria-live="polite" aria-atomic="true"></div>
+  <dialog id="glossary-dialog" aria-labelledby="glossary-title"><div class="dialog-top"><span>Glosario del atlas</span><button class="icon-button" id="close-dialog" aria-label="Cerrar definición"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="m3 3 10 10M13 3 3 13" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></button></div><h2 id="glossary-title"></h2><p id="glossary-definition"></p><div id="glossary-sources"></div></dialog>
+  <noscript>Activa JavaScript para explorar y comparar las fichas. Las fuentes y el contenido están disponibles en la carpeta data del proyecto.</noscript>
+</body>
+</html>

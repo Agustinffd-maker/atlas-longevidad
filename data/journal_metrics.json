@@ -1,0 +1,64 @@
+{
+  "metric": "JIF Quartile",
+  "metric_year": 2023,
+  "release": "Journal Citation Reports, junio de 2024",
+  "verified_on": "2026-11-10",
+  "source": "CNFIS: reproducción institucional pública de JCR/JIF",
+  "source_url": "https://www.cnfis.ro/wp-content/uploads/2025/04/clasament_2023_JIF_AIS.pdf",
+  "year_basis_url": "https://journalcitationreports.zendesk.com/hc/en-gb/articles/28351122662289-2023",
+  "verification": "Cotejo de revista, ISSN, categoría y columna JIF Quartile en el documento público. No es consulta directa a JCR ni clasificación vigente de 2026.",
+  "scope_note": "Instantánea histórica por ISSN y categoría; no equivale al cuartil del año de cada artículo ni a una evaluación de calidad. Incluye únicamente las cinco revistas de la biblioteca pública de ejemplo.",
+  "journals": [
+    {
+      "journal": "Nature",
+      "issns": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "category": "MULTIDISCIPLINARY SCIENCES",
+      "quartile": "Q1",
+      "pdf_page": 1230
+    },
+    {
+      "journal": "Nature Methods",
+      "issns": [
+        "1548-7091",
+        "1548-7105"
+      ],
+      "category": "BIOCHEMICAL RESEARCH METHODS",
+      "quartile": "Q1",
+      "pdf_page": 80
+    },
+    {
+      "journal": "BMJ-British Medical Journal",
+      "issns": [
+        "0959-535X",
+        "1756-1833"
+      ],
+      "category": "MEDICINE, GENERAL & INTERNAL",
+      "quartile": "Q1",
+      "pdf_page": 1157,
+      "verification_note": "Cotejo por eISSN 1756-1833. El ISSN impreso 0959-8138 de los registros PubMed no se añade como alias de la tabla; la coincidencia se sustenta en el identificador electrónico compartido."
+    },
+    {
+      "journal": "Cell",
+      "issns": [
+        "0092-8674",
+        "1097-4172"
+      ],
+      "category": "CELL BIOLOGY",
+      "quartile": "Q1",
+      "pdf_page": 176
+    },
+    {
+      "journal": "Nature Medicine",
+      "issns": [
+        "1078-8956",
+        "1546-170X"
+      ],
+      "category": "MEDICINE, RESEARCH & EXPERIMENTAL",
+      "quartile": "Q1",
+      "pdf_page": 1187
+    }
+  ]
+}

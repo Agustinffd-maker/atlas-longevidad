@@ -1,0 +1,232 @@
+{
+  "41781614": {
+    "pmid": "41781614",
+    "title": "Genome modelling and design across all domains of life with Evo 2.",
+    "journal": "Nature",
+    "published": "2026-03-04",
+    "date_precision": "día",
+    "doi": "10.1038/s41586-026-10176-5",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41781614/",
+    "types": [
+      "Journal Article"
+    ],
+    "model": "Humanos (MeSH) · Animales (MeSH)",
+    "access": "Metadatos; resumen en la fuente",
+    "provider": "pubmed",
+    "quartile": "cuartil no verificado",
+    "fetched_at": "2026-11-10T18:14:47+00:00",
+    "issns": [
+      "0028-0836",
+      "1476-4687"
+    ],
+    "abstract_available": true
+  },
+  "40127903": {
+    "pmid": "40127903",
+    "title": "PROBAST+AI: an updated quality, risk of bias, and applicability assessment tool for prediction models using regression or artificial intelligence methods.",
+    "journal": "BMJ (Clinical research ed.)",
+    "published": "2025-03-24",
+    "date_precision": "día",
+    "doi": "10.1136/bmj-2024-082505",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40127903/",
+    "types": [
+      "Journal Article"
+    ],
+    "model": "Posible modelo computacional (orientativo)",
+    "access": "Metadatos; resumen en la fuente",
+    "provider": "pubmed",
+    "quartile": "cuartil no verificado",
+    "fetched_at": "2026-11-10T18:14:47+00:00",
+    "issns": [
+      "0959-8138",
+      "1756-1833"
+    ],
+    "abstract_available": true
+  },
+  "39672099": {
+    "pmid": "39672099",
+    "title": "How to build the virtual cell with artificial intelligence: Priorities and opportunities.",
+    "journal": "Cell",
+    "published": "2024-12-12",
+    "date_precision": "día",
+    "doi": "10.1016/j.cell.2024.11.015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39672099/",
+    "types": [
+      "Journal Article"
+    ],
+    "model": "Humanos (MeSH) · Animales (MeSH)",
+    "access": "Metadatos; resumen en la fuente",
+    "provider": "pubmed",
+    "quartile": "cuartil no verificado",
+    "fetched_at": "2026-11-10T18:14:47+00:00",
+    "issns": [
+      "0092-8674",
+      "1097-4172"
+    ],
+    "abstract_available": true
+  },
+  "38718835": {
+    "pmid": "38718835",
+    "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3.",
+    "journal": "Nature",
+    "published": "2024-05-08",
+    "date_precision": "día",
+    "doi": "10.1038/s41586-024-07487-w",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38718835/",
+    "types": [
+      "Journal Article"
+    ],
+    "model": "Humanos (MeSH)",
+    "access": "Metadatos; resumen en la fuente",
+    "provider": "pubmed",
+    "quartile": "cuartil no verificado",
+    "fetched_at": "2026-11-10T18:14:47+00:00",
+    "issns": [
+      "0028-0836",
+      "1476-4687"
+    ],
+    "abstract_available": true
+  },
+  "38626948": {
+    "pmid": "38626948",
+    "title": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods.",
+    "journal": "BMJ (Clinical research ed.)",
+    "published": "2024-04-16",
+    "date_precision": "día",
+    "doi": "10.1136/bmj-2023-078378",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38626948/",
+    "types": [
+      "Journal Article"
+    ],
+    "model": "Humanos (MeSH)",
+    "access": "Metadatos; resumen en la fuente",
+    "provider": "pubmed",
+    "quartile": "cuartil no verificado",
+    "fetched_at": "2026-11-10T18:14:47+00:00",
+    "issns": [
+      "0959-8138",
+      "1756-1833"
+    ],
+    "abstract_available": true
+  },
+  "38504017": {
+    "pmid": "38504017",
+    "title": "A visual-language foundation model for computational pathology.",
+    "journal": "Nature medicine",
+    "published": "2024-03-19",
+    "date_precision": "día",
+    "doi": "10.1038/s41591-024-02856-4",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38504017/",
+    "types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "model": "Humanos (MeSH)",
+    "access": "Metadatos; resumen en la fuente",
+    "provider": "pubmed",
+    "quartile": "cuartil no verificado",
+    "fetched_at": "2026-11-10T18:14:47+00:00",
+    "issns": [
+      "1078-8956",
+      "1546-170X"
+    ],
+    "abstract_available": true
+  },
+  "37704728": {
+    "pmid": "37704728",
+    "title": "A foundation model for generalizable disease detection from retinal images.",
+    "journal": "Nature",
+    "published": "2023-09-13",
+    "date_precision": "día",
+    "doi": "10.1038/s41586-023-06555-x",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37704728/",
+    "types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "model": "Humanos (MeSH)",
+    "access": "Metadatos; resumen en la fuente",
+    "provider": "pubmed",
+    "quartile": "cuartil no verificado",
+    "fetched_at": "2026-11-10T18:14:47+00:00",
+    "issns": [
+      "0028-0836",
+      "1476-4687"
+    ],
+    "abstract_available": true
+  },
+  "37438534": {
+    "pmid": "37438534",
+    "title": "Large language models encode clinical knowledge.",
+    "journal": "Nature",
+    "published": "2023-07-12",
+    "date_precision": "día",
+    "doi": "10.1038/s41586-023-06291-2",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37438534/",
+    "types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ],
+    "model": "Humanos (MeSH)",
+    "access": "Metadatos; resumen en la fuente",
+    "provider": "pubmed",
+    "quartile": "cuartil no verificado",
+    "fetched_at": "2026-11-10T18:14:47+00:00",
+    "issns": [
+      "0028-0836",
+      "1476-4687"
+    ],
+    "abstract_available": true
+  },
+  "38409223": {
+    "pmid": "38409223",
+    "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI.",
+    "journal": "Nature methods",
+    "published": "2024-02-26",
+    "date_precision": "día",
+    "doi": "10.1038/s41592-024-02201-0",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38409223/",
+    "types": [
+      "Journal Article"
+    ],
+    "model": "Humanos (MeSH)",
+    "access": "Metadatos; resumen en la fuente",
+    "provider": "pubmed",
+    "quartile": "cuartil no verificado",
+    "fetched_at": "2026-11-10T18:14:47+00:00",
+    "issns": [
+      "1548-7091",
+      "1548-7105"
+    ],
+    "abstract_available": true
+  },
+  "37045921": {
+    "pmid": "37045921",
+    "title": "Foundation models for generalist medical artificial intelligence.",
+    "journal": "Nature",
+    "published": "2023-04-12",
+    "date_precision": "día",
+    "doi": "10.1038/s41586-023-05881-4",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37045921/",
+    "types": [
+      "Journal Article",
+      "Review",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, P.H.S.",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ],
+    "model": "Humanos (MeSH)",
+    "access": "Metadatos; resumen en la fuente",
+    "provider": "pubmed",
+    "quartile": "cuartil no verificado",
+    "fetched_at": "2026-11-10T18:14:47+00:00",
+    "issns": [
+      "0028-0836",
+      "1476-4687"
+    ],
+    "abstract_available": true
+  }
+}

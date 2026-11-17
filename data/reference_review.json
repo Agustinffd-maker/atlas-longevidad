@@ -1,0 +1,62 @@
+{
+  "37045921": {
+    "review_access": "Metadatos y resumen revisados",
+    "review_note": "Perspectiva sobre IA médica generalista; se distingue su visión de futuro de una validación clínica de las capacidades propuestas.",
+    "review_url": "https://pubmed.ncbi.nlm.nih.gov/37045921/",
+    "reviewed_on": "2026-11-10"
+  },
+  "37438534": {
+    "review_access": "Texto completo abierto: evaluación humana, discusión y limitaciones revisadas",
+    "review_note": "Se cotejaron la distinción entre preguntas de examen y respuestas abiertas, la evaluación humana limitada y sus ejes de daño/sesgo. No se evaluaron respuestas nuevas del modelo ni todos los suplementos.",
+    "review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10396962/",
+    "reviewed_on": "2026-11-10"
+  },
+  "38504017": {
+    "review_access": "Metadatos y resumen revisados",
+    "review_note": "Pares de imagen-texto y 14 benchmarks según el resumen; no se revisó íntegramente el protocolo ni se deduce beneficio clínico.",
+    "review_url": "https://pubmed.ncbi.nlm.nih.gov/38504017/",
+    "reviewed_on": "2026-11-10"
+  },
+  "38409223": {
+    "review_access": "Metadatos y resumen revisados",
+    "review_note": "Se cotejaron el tamaño informado del conjunto de preentrenamiento y las tareas descritas. No se obtuvo texto completo verificable en esta revisión.",
+    "review_url": "https://pubmed.ncbi.nlm.nih.gov/38409223/",
+    "reviewed_on": "2026-11-10"
+  },
+  "39672099": {
+    "review_access": "Texto completo abierto: marco propuesto y evaluación revisados",
+    "review_note": "Se usa la versión publicada en Cell, PMID 39672099. Se revisaron su visión y la sección MODEL EVALUATION: generalización y cambio de distribución. No es validación de un simulador universal.",
+    "review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12148494/",
+    "reviewed_on": "2026-11-10"
+  },
+  "41781614": {
+    "review_access": "Texto completo abierto: discusión y alcance de las evaluaciones revisados",
+    "review_note": "Se cotejaron la publicación de 2026 y el límite explícito: métricas de generación computacional no garantizan función biológica. No se revisó íntegramente cada experimento o suplemento.",
+    "review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13128491/",
+    "reviewed_on": "2026-11-10"
+  },
+  "38718835": {
+    "review_access": "Texto completo abierto: limitaciones y evaluación estructural revisadas",
+    "review_note": "Se revisaron fallos estereoquímicos, orden espurio, falta de representación de dinámica y el papel de las estructuras de referencia. No se validó ninguna predicción propia.",
+    "review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11168924/",
+    "reviewed_on": "2026-11-10"
+  },
+  "37704728": {
+    "review_access": "Texto completo abierto: discusión y métricas de evaluación revisadas",
+    "review_note": "Se cotejaron AUROC/AUPR, evaluación de tareas y limitaciones de representatividad (datos de desarrollo mayoritariamente británicos). La ficha no atribuye validación prospectiva de beneficio ni longevidad.",
+    "review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10550819/",
+    "reviewed_on": "2026-11-10"
+  },
+  "38626948": {
+    "review_access": "Texto completo abierto: alcance, lista de reporte y discusión revisados",
+    "review_note": "TRIPOD+AI es una guía de transparencia, no una herramienta de evaluación de calidad. Su objetivo principal son modelos predictivos no generativos; no cubre por sí sola todos los usos de IA generativa.",
+    "review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11019967/",
+    "reviewed_on": "2026-11-10"
+  },
+  "40127903": {
+    "review_access": "Texto completo abierto: dominios y uso de la herramienta revisados",
+    "review_note": "Se revisó la distinción entre calidad del desarrollo, riesgo de sesgo en evaluación y aplicabilidad. No se aplicó una valoración PROBAST+AI a cada modelo ni al radar.",
+    "review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11931409/",
+    "reviewed_on": "2026-11-10"
+  }
+}
